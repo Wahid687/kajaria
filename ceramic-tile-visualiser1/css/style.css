@@ -1,0 +1,3107 @@
+                            /*CSS By Prashant Dave Start */
+
+                            .loadingtext {
+                                /* margin-top: 600px
+            ;
+        margin-left: 830px; */
+                                font-size: 50px;
+                                color: #0abbd3;
+                                display: flex;
+                                align-items: end;
+                                justify-content: center;
+                                width: 100%;
+                                height: calc(90vh - 100px);
+                            }
+
+                            .mainLogo {
+                                padding: 2px !important;
+                            }
+
+                            .navbar-brand img {
+                                height: 45px;
+                                margin-left: 50px;
+                                margin-top: 10px;
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .navbar-brand img {
+                                    height: 45px;
+                                    margin-left: 20px;
+                                    margin-top: 5px;
+                                }
+                            }
+
+                            .navbar-default {
+                                background-color: rgb(21, 66, 211);
+                                border-color: #ffffff;
+                                position: fixed;
+                                overflow: hidden;
+                                z-index: 100;
+                            }
+
+                            .navbar-header {
+                                padding-right: 0px;
+                                margin-right: 0px;
+                                display: inline-block;
+                            }
+
+                            .navbar-right {
+                                margin-top: 1em;
+                            }
+
+                            @media (min-width: 200px) {
+                                .navbar-right {
+                                    float: right !important;
+                                    margin-right: -5px;
+                                }
+                            }
+
+                            .navbar-right-brand img {
+                                width: 150px;
+                                height: 20px;
+                            }
+
+                            .navbar-right-login {
+                                left: 0px;
+                            }
+
+                            .navbar-right-login img {
+                                width: 30px;
+                                height: 30px;
+                            }
+
+                            .modal-content iframe {
+                                margin: 0 auto;
+                                display: block;
+                            }
+
+                            .common-heading {
+                                color: gray;
+                                font-size: 36px;
+                                font-weight: 500;
+                                text-decoration: underline;
+                            }
+
+                            .select-rooms-main-inner {
+                                width: 80%;
+                                margin: auto;
+                                display: contents;
+                            }
+
+                            #main .search-bar input[type=text] {
+                                border: solid 1px #C2C3C3;
+                                width: 75%;
+                                left: 20px;
+                                border-radius: 5px;
+                                padding-left: 10px;
+                                height: 2.8em;
+                            }
+
+                            #main .search-bar img {
+                                height: 46px;
+                                border-radius: 5px;
+                                /* position: relative;
+                                right: 7.6%;
+                                top: 0.2em; */
+                            }
+
+                            #main .search-bar .dropdown-toggle {
+                                background: none;
+                                color: #868787;
+                                height: 47px;
+                                border: solid 1px #C2C3C3;
+                                border-right: none;
+                                box-shadow: none;
+                            }
+
+                            #main .search-bar {
+                                display: flex;
+                                width: 80%;
+                                margin: auto;
+                                margin-top: 3em;
+                                justify-content: center;
+                            }
+
+                            #main .search-bar .dropdown-toggle::after {
+                                display: inline-block;
+                                margin-left: .255em;
+                                vertical-align: .255em;
+                                content: "";
+                                border-top: .3em solid;
+                                border-right: .3em solid transparent;
+                                border-bottom: 0;
+                                border-left: .3em solid transparent;
+                            }
+
+                            #main .search-bar .dropdown-menu.hiding {
+                                display: none !important;
+                            }
+
+                            #main .search-bar .dropdown-menu.show {
+                                display: grid !important;
+                                min-width: 90px;
+                            }
+
+                            #main .search-bar .dropdown-menu a.dropdown-item {
+                                padding: 0.5rem;
+                                color: #868787;
+                                text-decoration: none;
+                            }
+
+                            #main .search-bar input[type=text]:focus {
+                                box-shadow: none !important;
+                            }
+
+                            #main .search-bar button.btn.btn-primary.dropdown-toggle.btn:active:focus {
+                                outline: none !important;
+                            }
+
+                            #main .search-bar .dropdown:after {
+                                content: "|";
+                                position: absolute;
+                                left: 96%;
+                                top: 10%;
+                                font-size: 22px;
+                                font-weight: 100;
+                                color: #C2C3C3;
+                            }
+
+                            .leftfont {
+                                margin-left: 5%;
+                                margin-top: 20%;
+                            }
+
+                            .leftfont h1 {
+                                text-decoration: none;
+                                font-size: 36px;
+                                margin-top: 30px;
+                                color: #ffffff;
+                                text-align: left;
+                                line-height: 70px;
+                                text-shadow: 2px 3px #000000;
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .leftfont {
+                                    margin-left: 0%;
+                                    margin-top: 5%;
+                                }
+                                .leftfont h1 {
+                                    text-decoration: none;
+                                    font-size: 30px;
+                                    margin-top: 10px;
+                                    color: #ffffff;
+                                    text-align: center;
+                                    line-height: 50px;
+                                    text-shadow: 2px 3px #000000;
+                                }
+                            }
+
+                            .image-wrapper {
+                                position: relative;
+                                overflow: hidden;
+                                -moz-box-sizing: border-box;
+                                -webkit-box-sizing: border-box;
+                                box-sizing: border-box;
+                                height: 220px;
+                                margin-bottom: 1em;
+                                border-radius: 10px;
+                            }
+
+                            .image-wrapper h6 {
+                                color: #ffff;
+                                font-size: 30px;
+                                font-weight: bold;
+                                position: relative;
+                                bottom: 5em;
+                                text-shadow: 2px 2px #044a86;
+                            }
+
+                            .image-wrapper img {
+                                width: 500px;
+                                height: 220px;
+                                border-radius: 4px;
+                                filter: blur(2px);
+                                transition: 0.5s ease-in-out;
+                                vertical-align: top;
+                                max-width: 100%;
+                                -moz-transition: all 0.3s;
+                                -webkit-transition: all 0.3s;
+                                transition: all 0.3s;
+                            }
+
+                            .image-wrapper:hover img {
+                                filter: blur(0);
+                                transition: 0.5s ease-in-out;
+                                -moz-transform: scale(1.1);
+                                -webkit-transform: scale(1.1);
+                                transform: scale(1.1);
+                                cursor: pointer;
+                            }
+
+                            .image-wrapper:hover h6 {
+                                visibility: hidden;
+                            }
+
+                            .image-wrapper:hover h2 {
+                                visibility: hidden;
+                            }
+
+                            .image-wrapper h2 {
+                                color: #ffff;
+                                font-size: 23px;
+                                font-weight: normal;
+                                position: relative;
+                                bottom: 7em;
+                                text-shadow: 2px 3px #044a86;
+                            }
+
+                            .searchText {
+                                display: flex;
+                                justify-content: center;
+                                /* align-items: center; */
+                                width: 60%;
+                            }
+
+                            .left-action-block {
+                                background: #ffff;
+                                width: 100px;
+                                position: absolute;
+                                top: 20%;
+                                left: 0em;
+                                text-align: center;
+                                padding: 15px;
+                                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+                                display: none;
+                                z-index: 99;
+                            }
+
+                            .left-action-block .left-action-span {
+                                float: right;
+                                margin-top: -20px;
+                                z-index: 389;
+                                margin-right: -20px;
+                                position: relative;
+                            }
+
+                            .layout-block-border {
+                                line-height: 25px;
+                            }
+
+                            .left-action-inner hr {
+                                width: 98px;
+                                position: relative;
+                                right: 1em;
+                            }
+
+                            .left-toggler:hover+.left-action-block,
+                            .left-action-block:hover {
+                                display: block;
+                            }
+
+                            .left-toggler:hover {
+                                transform: translateX(100px);
+                            }
+
+                            .left-toggler {
+                                position: absolute;
+                                top: 35%;
+                                transition: transform 0.3s ease;
+                                transform: translateX(0px);
+                            }
+
+                            .left-action-btn img {
+                                height: 50px;
+                                width: 50px;
+                                filter: gray;
+                                -webkit-filter: grayscale(1);
+                            }
+
+                            .tooltip1 {
+                                visibility: hidden;
+                                max-width: 550px;
+                                background-color: black;
+                                color: #fff;
+                                font-size: 12px;
+                                text-align: center;
+                                border-radius: 6px;
+                                padding: 5px 5px;
+                                /* Position the tooltip */
+                                position: absolute;
+                                z-index: 1;
+                            }
+
+                            .left-action-btn:hover .tooltip1 {
+                                visibility: visible;
+                                z-index: 500;
+                            }
+
+                            .left-action-btn img:hover .tooltip1 {
+                                visibility: visible;
+                            }
+
+                            a.grout-color .left-action-btn img {
+                                height: 30px;
+                                width: 30px;
+                                background: #E7E7E7;
+                                padding: 5px;
+                                border-radius: 5px;
+                                -webkit-filter: grayscale(0);
+                            }
+
+                            .boxcsschange2 {
+                                height: 34px !important;
+                                width: 35px !important;
+                                display: inline !important;
+                                padding: 5px !important;
+                                margin: 0px !important;
+                                filter: #232323 !important;
+                                margin-top: -7px !important;
+                                cursor: pointer !important;
+                                position: relative !important;
+                            }
+
+                            .tooltip2 {
+                                visibility: hidden;
+                                max-width: 550px;
+                                background-color: black;
+                                color: #fff;
+                                font-size: 12px;
+                                text-align: center;
+                                border-radius: 6px;
+                                padding: 5px 5px;
+                                position: absolute;
+                                z-index: 1;
+                            }
+
+                            #setNewDecal111:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #moveDecal111:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal1:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal2:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal3:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal4:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal5:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #clearDecal6:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #changeTileLayoutzz0:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #changeTileLayoutzz1:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #changeTileLayoutzz2:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #changeTileLayoutzz3:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #changeTileLayoutzz4:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #voffsetminus:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #voffsetplus:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #uoffsetminus:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            #uoffsetplus:hover~.tooltip2 {
+                                visibility: visible !important;
+                                z-index: 500 !important;
+                            }
+
+                            a.grout-color .fa {
+                                position: absolute;
+                                left: 3.2em;
+                                top: 10.2em;
+                                font-size: 18px;
+                            }
+
+                            .left-action-block a {
+                                color: black;
+                                font-size: 10px;
+                                font-weight: bold;
+                                white-space: nowrap;
+                            }
+
+                            .left-action-block a:hover {
+                                cursor: grabbing;
+                                color: #337ab7;
+                                text-decoration: none;
+                            }
+
+                            a.layout-block.grout-color:hover .color-dropper {
+                                background: #337ab7;
+                            }
+
+                            .left-action-block a:hover .left-action-list {
+                                display: block;
+                            }
+
+                            .layout-button span {
+                                font-size: 26px;
+                                font-weight: bold;
+                            }
+
+                            .left-action-list ul {
+                                display: flex;
+                            }
+
+                            .left-action-list ul li img {
+                                height: 28px;
+                                width: 28px;
+                                display: inline-flex;
+                                margin: 0;
+                                filter: gray;
+                                -webkit-filter: grayscale(1);
+                            }
+
+                            .left-action-list ul li img:hover {
+                                -webkit-filter: grayscale(0);
+                            }
+
+                            /* .boxcsschange1 {
+                                                    height: 50px;
+                                                    width: 50px;
+                                                    display: block;
+                                                    margin: 15px;
+                                                    -webkit-filter: grayscale(1);
+                                                }
+                                                
+                                                .boxcsschange2 {
+                                                    height: 25px;
+                                                    width: 25px;
+                                                    display: inline;
+                                                    padding: 2px;
+                                                    margin: 0px;
+                                                    filter: #232323;
+                                                    margin-top: -10px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                */
+
+                            .left-action-list {
+                                position: absolute;
+                                left: 7.2em;
+                                background: #ffff;
+                                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+                                display: none;
+                            }
+
+                            .layout-action {
+                                top: 1.85em;
+                            }
+
+                            .orientation-action {
+                                top: 8em;
+                                line-height: 10px;
+                                padding: 20px;
+                                height: 120px;
+                            }
+
+                            .offset-action {
+                                top: 30em;
+                                height: 72px;
+                            }
+
+                            .orientation-action ul li a span,
+                            .grout-size-action ul li a span,
+                            .customize-area-action ul li a span {
+                                font-size: 16px;
+                                font-weight: bold;
+                                margin: 10px;
+                            }
+
+                            .orientation2-action {
+                                top: 22em;
+                                height: 50px;
+                                padding: 20px;
+                            }
+
+                            .customize-area2-action {
+                                top: 38em;
+                                height: 50px;
+                                padding: 10px;
+                            }
+
+                            .orientation2-action ul li a span,
+                            .customize-area2-action ul li a span {
+                                font-size: 26px;
+                                font-weight: bold;
+                                margin: 10px;
+                            }
+
+                            .grout-size-action {
+                                top: 18em;
+                                height: 50px;
+                                padding: 15px;
+                            }
+
+                            .customize-area-action {
+                                bottom: 5em;
+                                height: 50px;
+                                padding: 10px;
+                            }
+
+                            .show1 {
+                                display: block;
+                            }
+
+                            .fade {
+                                opacity: 1;
+                            }
+
+                            input.grout_color {
+                                opacity: 0;
+                                width: 50px;
+                                height: 50px;
+                                position: absolute;
+                                right: 2.5em;
+                                margin-top: 2em;
+                                z-index: 99;
+                            }
+
+                            .right-action-block {
+                                position: absolute;
+                                right: 25px;
+                                bottom: 56px;
+                            }
+
+                            .right-action-block-addcart {
+                                margin-top: 10px;
+                            }
+
+                            .right-action-block-addcart img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .right-action-block-roomcart {
+                                margin-bottom: 10px;
+                            }
+
+                            .right-action-block-roomcart img {
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .left-block {
+                                position: absolute;
+                                left: 2%;
+                                top: 85%;
+                            }
+
+                            .left-togg .left-togg-icon {
+                                display: block;
+                                height: 50px;
+                                width: 50px;
+                                border-radius: 50px;
+                                background: url(../assets/images/help-black.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .left-togg .left-togg-icon:hover {
+                                display: block;
+                                height: 50px;
+                                width: 50px;
+                                border-radius: 50px;
+                                background: url(../assets/images/help-orange.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .right-toggler-icon {
+                                display: block;
+                                height: 50px;
+                                width: 50px;
+                                border-radius: 0px;
+                                background: url(../assets/images/fab-black.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .right-toggler-icon:hover,
+                            ul.right-ul:hover+div.right-toggler-icon {
+                                background: url(../assets/images/fab-orange.png);
+                                border: none;
+                            }
+
+                            .right-toggler .download-icon {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                margin-bottom: 10px;
+                                background: url(../assets/images/download-black.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .download-icon:hover {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                background: url(../assets/images/download-orange.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .undo-icon {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                background: url(../assets/images/undo-black.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .undo-icon:hover {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                background: url(../assets/images/undo-orange.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .fullscreen-icon {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                background: url(../assets/images/zoomout-black.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler .fullscreen-icon:hover {
+                                display: block;
+                                height: 40px;
+                                width: 40px;
+                                background: url(../assets/images/zoomout-orange.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+
+                            .right-toggler ul {
+                                display: none;
+                                position: absolute;
+                                bottom: 3em;
+                                left: 0.2em;
+                                transition: transform 0.5s ease;
+                            }
+
+                            .right-toggler:hover .right-ul {
+                                display: block;
+                            }
+
+                            .right-toggler ul li {
+                                margin-bottom: 1em;
+                            }
+
+                            .right-toggler ul li a {
+                                cursor: pointer;
+                            }
+
+                            /* #wrapper,
+.modal-fixed-footer2
+{
+    display: block;
+} */
+
+                            .boxcsschange1 {
+                                height: 50px !important;
+                                width: 50px !important;
+                                display: block;
+                                margin: 10px !important;
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .left-toggler {
+                                    transform: translateX(0px) !important;
+                                }
+                                .left-toggler:hover {
+                                    transform: translateX(50px) !important;
+                                }
+                                .left-action-block {
+                                    background: #ffff;
+                                    width: 50px;
+                                    position: absolute;
+                                    top: 30%;
+                                    left: 0em;
+                                    text-align: center;
+                                    padding: 5px;
+                                    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+                                    display: none;
+                                    z-index: 99;
+                                }
+                                .left-action-block .left-action-span {
+                                    float: right;
+                                    margin-top: -15px;
+                                    z-index: 389;
+                                    margin-right: -15px;
+                                    position: relative;
+                                }
+                                .left-action-btn img {
+                                    height: 30px;
+                                    width: 30px;
+                                    filter: gray;
+                                    -webkit-filter: grayscale(1);
+                                }
+                                .left-action-block a {
+                                    color: black;
+                                    font-size: 6px;
+                                    font-weight: bold;
+                                    white-space: nowrap;
+                                }
+                                .layout-block-border {
+                                    line-height: 14px;
+                                }
+                                .left-action-inner hr {
+                                    width: 44px;
+                                    position: relative;
+                                    right: 1em;
+                                }
+                                .layout-action {
+                                    top: 0.85em;
+                                }
+                                .left-action-list {
+                                    position: absolute;
+                                    left: 3.6em;
+                                    background: #ffff;
+                                    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+                                    display: none;
+                                    height: 48px;
+                                }
+                                .layout-button span {
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                }
+                                .boxcsschange1 {
+                                    height: 23px !important;
+                                    width: 23px !important;
+                                    display: block;
+                                    margin: 10px !important;
+                                }
+                                .orientation-action ul li a span,
+                                .grout-size-action ul li a span,
+                                .customize-area-action ul li a span {
+                                    font-size: 10px;
+                                    font-weight: bold;
+                                    margin: 5px;
+                                }
+                                .orientation2-action ul li a span,
+                                .customize-area2-action ul li a span {
+                                    font-size: 17px;
+                                    font-weight: bold;
+                                    margin: 5px;
+                                }
+                                .orientation-action {
+                                    top: 6em;
+                                    line-height: 0px;
+                                    padding: 12px;
+                                    height: 50px;
+                                }
+                                a.grout-color .left-action-btn img {
+                                    height: 25px;
+                                    width: 25px;
+                                    background: #E7E7E7;
+                                    padding: 5px;
+                                    border-radius: 5px;
+                                    -webkit-filter: grayscale(0);
+                                }
+                                .responsivegrout {
+                                    top: 170px;
+                                    height: 30px;
+                                }
+                                .responsivecustomize {
+                                    width: 225px;
+                                    top: 321px;
+                                    padding: 5px 0px 5px 0px;
+                                }
+                                .responsivecustomizee {
+                                    top: 27em;
+                                    width: 240px;
+                                }
+                                .responsiveoffset {
+                                    top: 320px;
+                                    height: 40px;
+                                }
+                                .responsiveor {
+                                    top: 235px;
+                                    height: 30px;
+                                }
+                                .boxcsschange2 {
+                                    height: 18px !important;
+                                    width: 18px !important;
+                                    display: inline !important;
+                                    padding: 0 !important;
+                                    margin: 0px !important;
+                                    filter: #232323 !important;
+                                    margin-top: 7px !important;
+                                    cursor: pointer !important;
+                                    position: relative !important;
+                                }
+                            }
+
+                            #headermodal {
+                                position: sticky !important;
+                                top: 0 !important;
+                                z-index: 5 !important;
+                                background-color: white !important;
+                            }
+
+                            @media only screen and (max-width: 700px) {
+                                #headermodal {
+                                    position: absolute;
+                                }
+                            }
+
+                            /* #wrapper,
+.modal-fixed-footer2
+{
+    display: block;
+} */
+
+                            .modal-content,
+                            .modal-footer {
+                                background: #FFFFFF !important;
+                            }
+
+                            .select-pattern-modal {
+                                display: block;
+                                margin: auto;
+                                width: 75%;
+                                height: auto;
+                                top: 7em;
+                            }
+
+                            .filter-block select {
+                                display: block;
+                                width: 150px;
+                                height: 35px;
+                                margin: 5px;
+                                background: #FFFFFF;
+                                box-shadow: 0px 2px 5px 0px #888888;
+                            }
+
+                            .filter-block-room select {
+                                display: block;
+                                width: 144px;
+                                height: 47px;
+                                margin: 0px;
+                                background: #FFFFFF;
+                            }
+
+                            .filter-row {
+                                display: flex;
+                                width: 92%;
+                                margin: auto;
+                                justify-content: center;
+                            }
+
+                            /* #options .modal-header,
+                                        #detailsoptions .modal-header {
+                                            border-bottom: none;
+                                        } */
+
+                            @media only screen and (max-width: 1060px) {
+                                .filter-row {
+                                    display: flex !important;
+                                    width: 92% !important;
+                                    flex-direction: column !important;
+                                }
+                                .selectField {
+                                    width: 100% !important;
+                                }
+                            }
+
+                            #options .modal-header,
+                            #detailsoptions .modal-header,
+                            #cartoptions .modal-header,
+                            #formoptions .modal-header {
+                                border-bottom: none;
+                                font-size: 20px;
+                                background-color: #fff;
+                            }
+
+                            .modal-text {
+                                font-size: 20px;
+                                color: #232323;
+                            }
+
+                            #options .modal-footer,
+                            #detailsoptions .modal-footer,
+                            #cartoptions .modal-footer,
+                            #formoptions .modal-footer {
+                                border-top: none;
+                            }
+
+                            #detailsoptions {
+                                height: auto;
+                                min-height: 1010px;
+                                width: 100%;
+                                /* top: 21%; */
+                                margin-top: 0;
+                                background: #ffff;
+                                padding-bottom: 4em;
+                            }
+
+                            #detailsoptions .modal-content,
+                            .modal-footer {
+                                background: none !important;
+                                box-shadow: none;
+                                border: none;
+                            }
+
+                            #cartoptions .modal-content,
+                            .modal-footer {
+                                background: none !important;
+                                box-shadow: none;
+                                border: none;
+                            }
+
+                            #formoptions .modal-content,
+                            .modal-footer {
+                                background: none !important;
+                                box-shadow: none;
+                                border: none;
+                            }
+
+                            #roomoptions .modal-content,
+                            .modal-footer {
+                                background: none !important;
+                                box-shadow: none;
+                                border: none;
+                            }
+
+                            #cartoptions {
+                                height: auto;
+                                min-height: 1010px;
+                                width: 100%;
+                                /* top: 21%; */
+                                margin-top: 0;
+                                background: #ffff;
+                                padding-bottom: 4em;
+                            }
+
+                            #formoptions {
+                                top: 5px;
+                                max-height: 100%;
+                                width: 100%;
+                                /* top: 21%; */
+                                background: #ffff;
+                                padding-bottom: 4em;
+                            }
+
+                            #roomoptions {
+                                top: 5px;
+                                max-height: 100%;
+                                width: 100%;
+                                /* top: 21%; */
+                                background: #ffff;
+                                padding-bottom: 4em;
+                            }
+
+                            .row .productcart {
+                                border-right: 2px solid grey;
+                            }
+
+                            .productscart {
+                                height: 500px;
+                                overflow-y: scroll;
+                            }
+
+                            .productscart .table .carttd {
+                                height: 10px;
+                                font-weight: bold;
+                            }
+
+                            .productscart .table .carttd1 {
+                                height: 10px;
+                                font-weight: bold;
+                            }
+
+                            .productscart .table .carttd2 {
+                                height: 10px;
+                            }
+
+                            #canvas canvas {
+                                outline: none;
+                            }
+
+                            .filter-block {
+                                text-align: center;
+                            }
+
+                            .filter-block label {
+                                font-weight: bold;
+                            }
+
+                            .search-bar {
+                                text-align: center;
+                                margin-top: 2em;
+                            }
+
+                            .search-bar i {
+                                position: relative;
+                                left: 38%;
+                                top: 60%;
+                                color: #9e9e9e;
+                            }
+
+                            .search-bar input[type=text] {
+                                width: 40%;
+                                border-bottom: solid 2px #C6C5C5;
+                            }
+
+                            .pattern-block-inner {
+                                width: 200px !important;
+                                text-align: center;
+                                margin: auto;
+                                height: 300px;
+                            }
+
+                            .imgblock {
+                                width: 200px;
+                                height: 200px;
+                                display: contents;
+                            }
+
+                            .textureimg {
+                                position: relative;
+                                width: 100%;
+                                max-height: 160px;
+                                vertical-align: middle;
+                            }
+
+                            .randamimg {
+                                position: fixed;
+                                /* margin: auto; */
+                                z-index: 1000;
+                                float: left;
+                                /* top: 21px; */
+                                /* top: 0%; */
+                                width: 20px;
+                                height: 20px;
+                                margin-left: -99px;
+                            }
+
+                            .addcart {
+                                height: 20px;
+                                width: 25px;
+                                position: relative;
+                                top: auto;
+                                right: auto;
+                            }
+
+                            .cart-btn {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            .right-action-block-addcart .cart-counter {
+                                display: inline-block;
+                                position: relative;
+                                width: 18px;
+                                opacity: 0;
+                                height: 18px;
+                                background: #337ab7;
+                                text-align: center;
+                                color: #fff;
+                                font-size: 14px;
+                                font-weight: bold;
+                                border-radius: 50%;
+                                margin-left: -24px;
+                                top: -6px;
+                            }
+
+                            .pattern-block-inner span {
+                                display: block;
+                                background: #232323;
+                                color: #ffffff;
+                                width: 200px;
+                                height: 30px;
+                                margin: auto;
+                                position: relative;
+                                /* left: 0.45em; */
+                                /* bottom: 2em; */
+                                padding: 4px;
+                                font-weight: 600;
+                                transition: all .4s ease-in-out;
+                                /* opacity: 0.67; */
+                                cursor: pointer;
+                            }
+
+                            .pattern-block-inner span:hover {
+                                opacity: 7;
+                                background: #337ab7;
+                            }
+
+                            .pattern-main-block {
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-top: 1em;
+                            }
+
+                            .pattern-block-inner .textureimg:hover+span {
+                                opacity: 1;
+                            }
+
+                            .bottom-ul-block {
+                                position: relative;
+                                left: 0.5em;
+                                top: 1em;
+                                bottom: 1em;
+                                width: 100%;
+                            }
+
+                            .bottom-ul-block ul li {
+                                color: #707070;
+                                font-weight: 500;
+                                line-height: 20px;
+                                font-size: 9px;
+                            }
+
+                            .bottom-ul-block ul li a {
+                                color: #337ab7;
+                                cursor: pointer;
+                                text-decoration: none;
+                            }
+
+                            .left-ul {
+                                float: left;
+                                text-align: left;
+                                margin-left: 0.5em;
+                                font-size: 14px;
+                            }
+
+                            .right-ul {
+                                float: right;
+                                text-align: right;
+                                margin-right: 2em;
+                                font-size: 12px;
+                            }
+
+                            .btn-close {
+                                float: right;
+                                background: none;
+                                border: none;
+                                cursor: pointer;
+                                position: relative;
+                                left: 1.5em;
+                                bottom: 1em;
+                            }
+
+                            .btn-close img {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            .flex-parent {
+                                display: flex;
+                            }
+
+                            .jc-center {
+                                justify-content: center;
+                            }
+
+                            button.margin-right {
+                                margin-right: 20px;
+                            }
+
+                            #headermodel {
+                                position: sticky;
+                                top: 0;
+                                background-color: white;
+                                display: flex;
+                                flex-direction: row;
+                                z-index: 55;
+                                padding: 22px;
+                                font-size: 20px;
+                            }
+
+                            #detailsMain .filter-row {
+                                width: 75%;
+                            }
+
+                            #detailsMain .filter-block select {
+                                width: 225px;
+                            }
+
+                            #detailsMain .filter-block .dropdown-toggle {
+                                background: none;
+                                color: #868787;
+                                height: 40px;
+                                width: 225px;
+                                border: solid 1px #C2C3C3;
+                                box-shadow: none;
+                            }
+
+                            #detailsMain .filter-block .dropdown-menu.hiding {
+                                display: none !important;
+                            }
+
+                            #detailsMain .filter-block .dropdown-menu.show {
+                                display: grid !important;
+                                min-width: 225px;
+                            }
+
+                            #detailsMain .filter-block .dropdown-menu a.dropdown-item {
+                                padding: 0.5rem;
+                                color: #868787;
+                                text-decoration: none;
+                            }
+
+                            #detailsMain .filter-block .dropdown-menu a.dropdown-item:hover,
+                            #main .search-bar .dropdown-menu a.dropdown-item:hover {
+                                background: #868787;
+                                color: #ffff !important;
+                            }
+
+                            #detailsMain .filter-block .dropdown-toggle::after {
+                                display: inline-block;
+                                margin-left: 11.255em;
+                                vertical-align: .255em;
+                                content: "";
+                                border-top: .3em solid;
+                                border-right: .3em solid transparent;
+                                border-bottom: 0;
+                                border-left: .3em solid transparent;
+                            }
+
+                            #detailsMain .filter-block .dropdown-toggle:active:focus {
+                                outline: none;
+                            }
+
+                            #detailsMain .search-bar i {
+                                position: relative;
+                                left: 40%;
+                                top: 60%;
+                                color: #9e9e9e;
+                            }
+
+                            #detailsMain .pattern-main-block {
+                                margin-top: 2em !important;
+                                margin: auto;
+                                width: 80%;
+                            }
+
+                            #detailsMain .pattern-block-inner span {
+                                margin: auto;
+                                left: 0;
+                            }
+
+                            #detailsMain .bottom-ul-block {
+                                position: relative;
+                                left: 1.5em;
+                                bottom: 1em;
+                                width: 80%;
+                            }
+
+                            .design-block .main-design-block h5 {
+                                color: #707070;
+                                font-weight: 100;
+                                margin-left: 0em;
+                            }
+
+                            .design-block .main-design-block span {
+                                margin-right: 1em;
+                            }
+
+                            .design-block .main-design-block #indetid {
+                                font-size: 13px;
+                                font-weight: bold;
+                                font: oswald;
+                            }
+
+                            .design-block .main-design-block #indetname {
+                                font-size: 16px;
+                                font-weight: normal;
+                            }
+
+                            .main-design-block {
+                                width: 50%;
+                                margin: auto;
+                            }
+
+                            .main-design-block a {
+                                display: block;
+                                background: #868787;
+                                height: 40px;
+                                width: 40px;
+                                text-align: center;
+                                padding: 10px;
+                                border-radius: 50px;
+                                color: #ffff;
+                                cursor: pointer;
+                                position: relative;
+                                right: 5em;
+                            }
+
+                            .main-design-block img {
+                                width: 350px;
+                                height: 250px;
+                                border: solid 1px #C4C4C4;
+                                border-radius: 5px;
+                            }
+
+                            .similar-design-block {
+                                width: 60%;
+                                margin: auto 25%;
+                            }
+
+                            .similar-design-block h5 {
+                                color: #707070;
+                                font-weight: 100;
+                                font-size: 18px;
+                            }
+
+                            .similar-design-block img {
+                                height: 80px;
+                                width: 80px;
+                                border: solid 1px #C4C4C4;
+                                margin: 2px;
+                                border-radius: 5px;
+                            }
+
+                            .similar-design.active {
+                                border: solid 2px #337ab7;
+                            }
+
+                            .main-design-specification {
+                                position: relative;
+                                top: 7em;
+                                right: 4em;
+                            }
+
+                            .main-design-specification table {
+                                width: 60%;
+                                border: solid 2px #232323;
+                                height: 30%;
+                                border-radius: 10px;
+                                box-shadow: #707070;
+                            }
+
+                            .main-design-specification table th {
+                                color: #232323;
+                                font-weight: bold;
+                                text-align: center;
+                            }
+
+                            .main-design-specification table td {
+                                color: #232323;
+                                font-weight: 100;
+                                font-size: 13px;
+                            }
+
+                            .main-design-specification button {
+                                background: #E94E1B;
+                                height: 60px;
+                                width: 150px;
+                                border: none;
+                                color: #ffff;
+                                margin-top: 2em;
+                                border-radius: 5px;
+                            }
+
+                            .main-design-specification button:hover {
+                                background: #232323;
+                                height: 60px;
+                                width: 150px;
+                                border: none;
+                                color: #ffff;
+                                margin-top: 2em;
+                                border-radius: 5px;
+                            }
+
+                            /*CSS By Prashant Dave End */
+
+                            /*home page design */
+
+                            .sliderClass {
+                                width: 100%;
+                                height: 600px;
+                                position: relative;
+                                overflow: hidden;
+                            }
+
+                            .sliderDiv {
+                                width: 500%;
+                                display: flex;
+                                height: 100%;
+                                position: absolute;
+                                flex-direction: row;
+                                left: 0%;
+                                transition: 1s;
+                            }
+
+                            .imageSec {
+                                object-fit: cover;
+                                width: 20%;
+                                height: 100%;
+                            }
+
+                            .imageMian {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                            .sliderdiv-text {
+                                position: relative;
+                                max-width: 58%;
+                                top: -50%;
+                                left: 0;
+                                border-radius: 0px 50px 50px 0px;
+                                transform: translateY(-50%);
+                                background-color: rgba(0, 0, 0, 0.6);
+                                color: #ffffff;
+                                padding: 10rem 5rem;
+                            }
+
+                            .sliderdiv-text h2 {
+                                font-size: 4rem;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                text-transform: uppercase;
+                                letter-spacing: 3px;
+                                margin-bottom: 2.5rem;
+                            }
+
+                            .sliderdiv-text p {
+                                font-size: 1.6rem;
+                                font-family: 'Courier New', Courier, monospace;
+                                letter-spacing: 1px;
+                            }
+
+                            .buttonSlider {
+                                position: absolute;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            .buttonleft {
+                                position: absolute;
+                                left: 0;
+                                top: 45%;
+                                width: 40px;
+                                height: 40px;
+                                cursor: pointer;
+                            }
+
+                            .buttonleft:hover {
+                                background-color: #ffffff;
+                                opacity: 0.8;
+                            }
+
+                            .imagelefticon {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            .buttonright {
+                                cursor: pointer;
+                                position: absolute;
+                                right: 0;
+                                width: 40px;
+                                height: 40px;
+                                top: 45%;
+                            }
+
+                            .buttonright:hover {
+                                background-color: #ffffff;
+                                opacity: 0.8;
+                            }
+
+                            .mainbottombtn {
+                                position: absolute;
+                                bottom: 0;
+                                display: flex;
+                                flex-direction: row;
+                                height: 50px;
+                                width: 100%;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .bottomSlider {
+                                position: relative;
+                                background-color: white;
+                                width: 30px;
+                                height: 5px;
+                                margin: 0 5px;
+                                border-radius: 2px;
+                                cursor: pointer;
+                                transition: 1s;
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .sliderClass {
+                                    width: 100%;
+                                    height: 400px;
+                                    position: relative;
+                                    overflow: hidden;
+                                }
+                                .sliderdiv-text {
+                                    position: relative;
+                                    max-width: 100%;
+                                    top: -50%;
+                                    left: 0;
+                                    border-radius: 0px;
+                                    transform: translateY(-50%);
+                                    background-color: rgba(0, 0, 0, 0.6);
+                                    color: #ffffff;
+                                    padding: 2rem 2rem;
+                                }
+                                .sliderdiv-text h2 {
+                                    font-size: 3rem;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    text-transform: uppercase;
+                                    letter-spacing: 2px;
+                                    margin-bottom: 1.5rem;
+                                }
+                                .sliderdiv-text p {
+                                    font-size: 1rem;
+                                    font-family: 'Courier New', Courier, monospace;
+                                    letter-spacing: 1px;
+                                }
+                                .imagelefticon {
+                                    width: 50%;
+                                    height: 50%;
+                                }
+                            }
+
+                            .startSection {
+                                display: flex;
+                                flex-direction: row;
+                                width: 100%;
+                                padding: 40px 0px;
+                            }
+
+                            .startSection-mainCard {
+                                width: 50%;
+                                height: 400px;
+                                filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+                                background: #E88A10;
+                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                border-radius: 13px;
+                                display: flex;
+                                align-items: center;
+                                flex-direction: column;
+                                padding: 64px;
+                            }
+
+                            .heading-startSection {
+                                width: 100%;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 36px;
+                                line-height: 49px;
+                                color: #FFFFFF;
+                            }
+
+                            .dis-startSection {
+                                width: 100%;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 25px;
+                                text-transform: capitalize;
+                                color: #FFFFFF;
+                            }
+
+                            .startrightSection {
+                                width: 400px;
+                                position: absolute;
+                                right: -375px;
+                                top: 14px;
+                                height: 370px;
+                                background: #8F8E8E;
+                                box-shadow: inset 9px 9px 36px rgba(0, 0, 0, 0.25);
+                                border-radius: 22px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                            }
+
+                            .cardStartbtn {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 30px;
+                                line-height: 100px;
+                                text-transform: capitalize;
+                            }
+
+                            .startrightimage {
+                                cursor: pointer;
+                            }
+
+                            .btnStart {
+                                width: 100px;
+                                height: 100px;
+                                cursor: pointer;
+                            }
+
+                            @media only screen and (max-width: 995px) {
+                                .startSection-mainCard {
+                                    width: 100% !important;
+                                    position: relative;
+                                    padding: 20px;
+                                }
+                                .startrightSection {
+                                    width: 90%;
+                                    position: absolute;
+                                    top: 250px;
+                                    right: 27px;
+                                    height: 215px;
+                                    background: #8F8E8E;
+                                    box-shadow: inset 9px 9px 36px rgba(0, 0, 0, 0.25);
+                                    border-radius: 22px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                }
+                                .btnStart {
+                                    height: 70px;
+                                    width: 70px;
+                                }
+                                .cardStartbtn {
+                                    font-size: 20px;
+                                    line-height: 50px;
+                                }
+                            }
+
+                            @media screen and (max-width: 700px) {
+                                .heading-startSection {
+                                    font-size: 20px;
+                                }
+                                .dis-startSection {
+                                    font-size: 12px;
+                                }
+                            }
+
+                            @media screen and (max-width: 500px) {
+                                .cardStartbtn {
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 13px;
+                                    line-height: 30px;
+                                    text-transform: capitalize;
+                                }
+                                .startrightSection {
+                                    width: 83%;
+                                    position: absolute;
+                                    top: 250px;
+                                    right: 18px;
+                                    height: 184px;
+                                    background: #8F8E8E;
+                                    box-shadow: inset 9px 9px 36px rgba(0, 0, 0, 0.25);
+                                    border-radius: 22px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                }
+                                .btnStart {
+                                    width: 70px;
+                                    height: 70px
+                                }
+                                .heading-startSection {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 20px;
+                                    line-height: 35px;
+                                    color: #FFFFFF;
+                                }
+                                .dis-startSection {
+                                    width: 100%;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    text-transform: capitalize;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                            .VisuMain {
+                                position: relative;
+                                display: flex;
+                                width: 100%;
+                                height: 400px;
+                                background: #232323;
+                                margin-top: 80px 0px;
+                            }
+
+                            .leftVisu {
+                                margin: 30px;
+                                padding: 10px;
+                                width: 50%;
+                            }
+
+                            .leftVisuMain-img1 {
+                                position: relative;
+                            }
+
+                            .leftVisuMain-img1 img {
+                                width: 100%;
+                                height: 300px;
+                                background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+                                filter: blur(1px);
+                                position: relative;
+                                object-fit: cover;
+                            }
+
+                            .leftVisuMain-logo {
+                                width: 260px;
+                                height: 40px;
+                                position: absolute;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                top: 60px;
+                            }
+
+                            .leftVisuMain-logo img {
+                                width: 100%;
+                                height: 30px;
+                            }
+
+                            .rightVisuMain {
+                                color: #ffffff;
+                                flex-direction: column;
+                                padding: 40px;
+                                width: 50%;
+                            }
+
+                            .rightVisuMain-title {
+                                padding: 0px;
+                            }
+
+                            .rightVisuMain-title p {
+                                width: 100%;
+                                height: 76px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 35px;
+                                line-height: 100px;
+                                letter-spacing: 0.1em;
+                                text-transform: capitalize;
+                                color: #CACACA;
+                            }
+
+                            .rightVisuMain-Dis {
+                                padding: 0px;
+                                width: 200px;
+                                flex-direction: column;
+                                height: 300px;
+                            }
+
+                            .rightVisuMain-Dis p {
+                                padding-top: 10px;
+                                width: 480px;
+                                flex-direction: column;
+                                height: 250px;
+                                position: absolute;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-size: 18px;
+                                line-height: 25px;
+                                text-transform: capitalize;
+                                color: #FFFFFF;
+                            }
+
+                            .interiorMain {
+                                position: relative;
+                                padding: 40px 0px;
+                                width: 100%;
+                                flex-direction: row;
+                            }
+
+                            .interiorMain-img {
+                                position: relative;
+                                width: 100%;
+                            }
+
+                            .interiorMain-img img {
+                                width: 100%;
+                                height: 500px;
+                                object-fit: cover;
+                            }
+
+                            .interiorMain-text {
+                                position: absolute;
+                                width: 470px;
+                                height: 378px;
+                                top: 60px;
+                                left: 140px;
+                                background: rgba(0, 0, 0, 0.49);
+                                backdrop-filter: blur(4px);
+                                border-radius: 20px;
+                            }
+
+                            .interiorMain-text p {
+                                color: #ffffff;
+                                font-family: Open Sans;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 40px;
+                                line-height: 84px;
+                                text-align: right;
+                                position: absolute;
+                                width: 251.61px;
+                                height: 420px;
+                                right: 70px;
+                                top: 50px;
+                            }
+
+                            .maincircle {
+                                position: relative;
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                padding: 10px 0px;
+                                flex-direction: row;
+                            }
+
+                            @media only screen and (max-width: 1200px) {
+                                .maincircle {
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+
+                            .maincircle-left {
+                                position: relative;
+                                left: 0px;
+                                width: 50%;
+                                margin: 0px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .maincircle-left img {
+                                height: 500px;
+                                width: 600px;
+                            }
+
+                            .maincircle-right {
+                                position: relative;
+                                right: 0px;
+                                width: 50%;
+                                height: 500px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .maincircle-right p {
+                                position: absolute;
+                                width: 300px;
+                                top: 100px;
+                                height: 252px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 60px;
+                                line-height: 90px;
+                                text-align: right;
+                                color: #000000;
+                            }
+
+                            .woodMain {
+                                display: flex;
+                                justify-content: center;
+                                padding: 100px 0px;
+                            }
+
+                            .sectionWoodMain {
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .woodMain-img {
+                                margin: 15px;
+                                justify-content: center;
+                                height: 350px;
+                            }
+
+                            .woodMain-img img {
+                                height: 350px;
+                            }
+
+                            .woodMain-text {
+                                margin: -60px;
+                                text-align: center;
+                                color: #ffffff;
+                                font-weight: bolder;
+                                font-size: 20px;
+                            }
+
+                            .clientMain {
+                                display: block;
+                                padding: 40px 0px;
+                                flex-direction: row;
+                                justify-content: center;
+                                width: 100%;
+                                flex-direction: row;
+                            }
+
+                            .clientTitle {
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                justify-content: center;
+                                width: 100%;
+                            }
+
+                            .clientTitle p {
+                                width: 261px;
+                                height: 63px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 50px;
+                                text-align: center;
+                                line-height: 68px;
+                                color: #000000;
+                            }
+
+                            .clientMainbox {
+                                display: flex;
+                                justify-content: center;
+                                padding: 30px;
+                                margin: 30px;
+                            }
+
+                            @media only screen and (max-width: 800px) {
+                                .clientMainbox {
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 10px;
+                                }
+                            }
+
+                            .clientDis {
+                                position: relative;
+                                width: 405px;
+                                height: 242px;
+                                background: #FFFFFF;
+                                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+                                border-radius: 13px;
+                                padding: 40px;
+                                margin: 30px;
+                            }
+
+                            .laminateMain {
+                                display: flex;
+                                padding: 10px 20px;
+                                justify-content: center;
+                                flex-direction: row;
+                            }
+
+                            .laminateMain1 {
+                                padding-top: 0px;
+                            }
+
+                            .laminateMain1 img {
+                                height: 100%;
+                                width: 100%;
+                            }
+
+                            .laminateMain2 {
+                                padding-top: 0px;
+                            }
+
+                            .laminateMain2 img {
+                                height: 100%;
+                                width: 100%;
+                            }
+
+                            .laminateMain3 {
+                                padding: 15px;
+                            }
+
+                            .laminateMain3 img {
+                                height: 100%;
+                                width: 100%;
+                            }
+
+                            .laminateInner2 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .laminateInner2 img {
+                                margin: 10px;
+                                height: 100%;
+                                width: 89%;
+                            }
+
+                            .featureMain {
+                                display: block;
+                                padding: 40px 0px;
+                                flex-direction: row;
+                                justify-content: center;
+                                width: 100%;
+                            }
+
+                            .featureTitle {
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                                padding: 30px 0;
+                            }
+
+                            .featureTitle p {
+                                position: relative;
+                                width: 398px;
+                                height: 63px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 50px;
+                                line-height: 68px;
+                                color: #000000;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .featureBox {
+                                width: 100%;
+                                display: flex;
+                                padding: 10px;
+                                justify-content: center;
+                                align-items: center;
+                                flex-wrap: wrap;
+                                background: #e5e5e5;
+                            }
+
+                            .featureInnerBox {
+                                width: 400px;
+                                height: 100%;
+                                padding: 20px;
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .featurePictureMain {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .featurePicture {
+                                position: relative;
+                                width: 50%;
+                                height: 150px;
+                                background: #FFFFFF;
+                                box-shadow: 16px 10px 18px rgba(0, 0, 0, 0.25);
+                                border-radius: 10px;
+                            }
+
+                            .featureinnerpicture {
+                                height: 120px;
+                                margin-top: 15px;
+                                margin-left: 15px;
+                            }
+
+                            .featureText {
+                                position: relative;
+                                width: 100%;
+                                margin-top: 20px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100px;
+                            }
+
+                            .featureText p {
+                                width: 75%;
+                                height: 70px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 25px;
+                                line-height: 33px;
+                                text-align: center;
+                                color: #000000;
+                            }
+
+                            .applicationMain {
+                                display: block;
+                                padding: 40px 0px;
+                                flex-direction: row;
+                                justify-content: center;
+                                width: 100%;
+                            }
+
+                            .applicationMainTitle {
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                            }
+
+                            .applicationMainTitle p {
+                                position: relative;
+                                width: 398px;
+                                height: 63px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 50px;
+                                line-height: 68px;
+                                color: #000000;
+                            }
+
+                            .applicationMainbox {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 40px;
+                                flex-wrap: wrap;
+                            }
+
+                            .applicationBoxText {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .applicationBox {
+                                position: relative;
+                                width: 175px;
+                                height: 175px;
+                                background: #e6e3e3;
+                                box-shadow: 16px 10px 18px rgb(0 0 0 / 25%);
+                                border-radius: 13px;
+                                margin: 10px;
+                            }
+
+                            .applicationBoxImg {
+                                height: 120px;
+                                margin-top: 15px;
+                            }
+
+                            .applicationboxinnertext {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .videoMain {
+                                padding: 50px 0px;
+                                flex-direction: row;
+                            }
+
+                            .contactMain {
+                                display: flex;
+                                width: 100%;
+                                padding: 40px 0px;
+                                justify-content: center;
+                            }
+
+                            @media only screen and (max-width: 400px) {
+                                .contactRight {
+                                    width: 106%
+                                }
+                                .contactMainText {
+                                    width: 102%
+                                }
+                            }
+
+                            @media only screen and (max-width: 1200px) {
+                                .featureTitle p {
+                                    position: relative;
+                                    width: 398px;
+                                    height: 63px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 40px;
+                                    line-height: 68px;
+                                    color: #000000;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+
+                            @media only screen and (max-width: 1200px) {
+                                .contactMain {
+                                    flex-direction: column;
+                                    width: 100%;
+                                    padding: 40px 0px;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                            }
+
+                            .contactMainImg {
+                                display: flex;
+                                justify-content: center;
+                                width: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+
+                            .contactMainImg img {
+                                width: 90%;
+                            }
+
+                            .contactRight {
+                                display: flex;
+                                width: 100%;
+                                justify-content: center;
+                                align-items: center;
+                                box-sizing: border-box;
+                            }
+
+                            input[type=text],
+                            select,
+                            textarea {
+                                width: 100%;
+                                padding: 6px;
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                box-sizing: border-box;
+                                margin-top: 6px;
+                                margin-bottom: 16px;
+                                resize: vertical;
+                            }
+
+                            input[type=submit] {
+                                background-color: #2a08ec;
+                                color: white;
+                                padding: 12px 20px;
+                                border: none;
+                                border-radius: 4px;
+                                cursor: pointer;
+                            }
+
+                            input[type=submit]:hover {
+                                background-color: #2a08ec;
+                            }
+
+                            .contactSubmit {
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 20px;
+                            }
+
+                            .contactDis {
+                                position: relative;
+                                width: 500px;
+                                height: 600px;
+                                background: #FFFFFF;
+                                box-shadow: 0px 4px 12px rgb(0 0 0 / 25%);
+                                border-radius: 13px;
+                                padding: 40px;
+                                margin: 30px;
+                            }
+
+                            .contactMainText {
+                                width: 100%;
+                                padding: 0px 20px;
+                                justify-content: center;
+                            }
+
+                            .contactMaintitle {
+                                display: flex;
+                                justify-content: center;
+                                font-weight: 100;
+                                font-size: 35px;
+                            }
+
+                            .contactDetailsMain {
+                                font-size: 18px;
+                                margin-bottom: 3px;
+                            }
+
+                            .footerMain {
+                                position: relative;
+                                width: 100%;
+                                height: 200px;
+                                background: #232323;
+                                flex-direction: row;
+                            }
+
+                            .footerMainImg {
+                                width: 100%;
+                                display: flex;
+                                padding: 10px 0px;
+                                justify-content: center;
+                            }
+
+                            .footerMainImg img {
+                                height: 34px;
+                                width: 232px;
+                            }
+
+                            .media-icons {
+                                display: flex;
+                                justify-content: center;
+                                padding: 30px 0px;
+                                width: 100%;
+                                height: 40px;
+                            }
+
+                            .media-icons img {
+                                height: 40px;
+                                width: 40px;
+                                margin: 15px;
+                            }
+
+                            .bottom-details {
+                                width: 100%;
+                                background: #262626;
+                            }
+
+                            .bottom-details .bottom_text {
+                                max-width: 1250px;
+                                margin: auto;
+                                padding: 20px 40px;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+
+                            .bottom-details .bottom_text span,
+                            .bottom-details .bottom_text a {
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: #fff;
+                                opacity: 0.8;
+                                text-decoration: none;
+                            }
+
+                            .bottom-details .bottom_text a:hover {
+                                opacity: 1;
+                                text-decoration: underline;
+                            }
+
+                            .bottom-details .bottom_text a {
+                                margin-right: 10px;
+                            }
+
+                            /* Help Page Css */
+
+                            .maincar {
+                                position: absolute;
+                                margin: auto;
+                                top: -662px;
+                            }
+
+                            .indcar {
+                                bottom: -5px;
+                            }
+
+                            .indcar li {
+                                display: inline-block;
+                                width: 2px;
+                                height: 1px;
+                                margin: 7px;
+                                text-indent: -999px;
+                                cursor: pointer;
+                                background-color: #000;
+                                background-color: rgba(0, 0, 0, 0);
+                                border: 1px solid #fff;
+                                border-radius: 10px;
+                                padding: 4px;
+                            }
+
+                            .cross-btn .btn-close {
+                                float: right;
+                                background: none;
+                                border: none;
+                                cursor: pointer;
+                                position: relative;
+                                left: 0em;
+                                bottom: 2em;
+                                top: 10px;
+                            }
+
+                            .cross-btn .btn-close img {
+                                height: 40px;
+                                width: 40px;
+                            }
+
+                            @media only screen and (max-width: 400px) {
+                                .media-icons img {
+                                    height: 30px;
+                                    width: 30px;
+                                    margin: 5px;
+                                }
+                                .woodMain-img img {
+                                    height: 241px;
+                                    width: 129px;
+                                }
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .applicationMain {
+                                    display: block;
+                                    padding: 10px 0px;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    width: 100%;
+                                }
+                                .rightVisuMain {
+                                    color: #ffffff;
+                                    flex-direction: column;
+                                    padding: 40px;
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .rightVisuMain-title p {
+                                    width: 100%;
+                                    height: 76px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 28px;
+                                    line-height: 100px;
+                                    letter-spacing: 0.1em;
+                                    text-transform: capitalize;
+                                    color: #CACACA;
+                                }
+                                .rightVisuMain-Dis {
+                                    padding: 0px;
+                                    width: 90% !important;
+                                    flex-direction: column;
+                                    height: 200px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-top: 10px;
+                                }
+                                .rightVisuMain-Dis p {
+                                    padding-top: 10px;
+                                    width: 100% !important;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    position: relative;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                    text-transform: capitalize;
+                                    color: #FFFFFF;
+                                }
+                                .interiorMain-text {
+                                    width: 83%;
+                                    height: 378px;
+                                    position: absolute;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    top: 254px;
+                                    background: rgba(0, 0, 0, 0.49);
+                                    backdrop-filter: blur(4px);
+                                    border-radius: 20px;
+                                }
+                                .interiorMain-text p {
+                                    color: #ffffff;
+                                    font-family: Open Sans;
+                                    font-style: normal;
+                                    font-size: 30px;
+                                    line-height: 75px;
+                                    text-align: right;
+                                    position: absolute;
+                                    width: 60%;
+                                    height: 350px;
+                                    right: 10px;
+                                    top: 50px;
+                                }
+                                .maincircle-left img {
+                                    height: 90%;
+                                    width: 100%;
+                                }
+                                .maincircle-left {
+                                    width: 100%;
+                                }
+                                .maincircle-right {
+                                    width: 100%;
+                                }
+                                .maincircle-right p {
+                                    position: absolute;
+                                    width: 300px;
+                                    top: 100px;
+                                    height: 252px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 50px;
+                                    line-height: 90px;
+                                    text-align: right;
+                                    color: #000000;
+                                }
+                                .applicationBox {
+                                    position: relative;
+                                    width: 120px;
+                                    height: 120px;
+                                    background: #C4C4C4;
+                                    border-radius: 13px;
+                                    margin: 10px;
+                                }
+                                .clientMain {
+                                    display: block;
+                                    padding: 0px 0px;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    width: 100%;
+                                    flex-direction: row;
+                                }
+                                .clientDis {
+                                    position: relative;
+                                    width: 90%;
+                                    height: 242px;
+                                    background: #FFFFFF;
+                                    box-shadow: 0px 4px 12px rgb(0 0 0 / 25%);
+                                    border-radius: 13px;
+                                    padding: 40px;
+                                    margin: 30px;
+                                }
+                                .applicationMainTitle p {
+                                    position: relative;
+                                    width: 100%;
+                                    height: 63px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 35px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    line-height: 68px;
+                                    align-items: center;
+                                    color: #000000;
+                                }
+                                .applicationMainTitle {
+                                    position: relative;
+                                    display: flex;
+                                    justify-content: center !important;
+                                    width: 100%;
+                                    align-items: center !important;
+                                }
+                                .clientTitle p {
+                                    width: 261px;
+                                    height: 40px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 35px;
+                                    text-align: center;
+                                    line-height: 68px;
+                                    color: #000000;
+                                }
+                                .woodMain {
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 40px 0px;
+                                }
+                            }
+
+                            @media only screen and (max-width: 300px) {
+                                .rightVisuMain-title p {
+                                    width: 100%;
+                                    height: 50px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    line-height: 100px;
+                                    letter-spacing: 0.1em;
+                                    text-transform: capitalize;
+                                    color: #CACACA;
+                                }
+                                .woodMain-img {
+                                    margin: 3px;
+                                    justify-content: center;
+                                    height: 252px;
+                                }
+                                .woodMain-img img {
+                                    height: 241px;
+                                    width: 129px;
+                                }
+                                .maincircle-right {
+                                    position: relative;
+                                    right: 0px;
+                                    width: 50%;
+                                    height: 360px !important;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .rightVisuMain-Dis p {
+                                    padding-top: 10px;
+                                    width: 100% !important;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    position: relative;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-size: 14px !important;
+                                    line-height: 18px;
+                                    text-transform: capitalize;
+                                    color: #FFFFFF;
+                                }
+                                .interiorMain-text p {
+                                    font-style: normal;
+                                    font-size: 30px;
+                                    line-height: 40px;
+                                    text-align: right;
+                                    position: absolute;
+                                    width: 60%;
+                                    height: 350px;
+                                    right: 10px;
+                                    top: 50px;
+                                }
+                                .interiorMain-text {
+                                    width: 83%;
+                                    height: 300px;
+                                    position: absolute;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    top: 254px;
+                                    background: rgba(0, 0, 0, 0.49);
+                                    backdrop-filter: blur(4px);
+                                    border-radius: 20px;
+                                }
+                                .maincircle-right p {
+                                    top: 100px;
+                                    height: 252px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    width: 100% !important;
+                                    font-weight: 300;
+                                    font-size: 35px;
+                                    line-height: 90px;
+                                    text-align: right;
+                                    color: #000000;
+                                }
+                                .applicationBox {
+                                    position: relative;
+                                    width: 80px;
+                                    height: 80px;
+                                    background: #C4C4C4;
+                                    border-radius: 13px;
+                                    margin: 10px;
+                                }
+                                .applicationMainbox {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 10px;
+                                    flex-wrap: wrap;
+                                }
+                                .videoMain {
+                                    padding: 10px 0px;
+                                    flex-direction: row;
+                                }
+                                .startrightSection {
+                                    width: 83%;
+                                }
+                            }
+
+                            @media only screen and (max-width: 800px) {
+                                .maincircle-right {
+                                    position: relative;
+                                    right: 0px;
+                                    width: 50%;
+                                    height: 360px !important;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                            }
+
+                            @media only screen and (max-width: 1150px) {
+                                .VisuMain {
+                                    flex-direction: column;
+                                    height: 100%;
+                                }
+                                .leftVisu {
+                                    width: 100%;
+                                    margin: 0;
+                                }
+                                .leftVisuMain-img1 img {
+                                    width: 100%;
+                                    object-fit: cover;
+                                    height: 300px;
+                                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+                                    filter: blur(1px);
+                                }
+                                .leftVisuMain-logo {
+                                    width: 260px;
+                                    height: 40px;
+                                    position: absolute;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    top: 60px;
+                                }
+                                .leftVisuMain-logo img {
+                                    width: 100%;
+                                    height: 30px;
+                                }
+                                .rightVisuMain {
+                                    color: #ffffff;
+                                    flex-direction: column;
+                                    padding: 40px;
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .rightVisuMain-title {
+                                    padding: 0px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .rightVisuMain-Dis {
+                                    padding: 0px;
+                                    width: 70%;
+                                    flex-direction: column;
+                                    height: 200px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-top: 10px;
+                                }
+                                .rightVisuMain-Dis p {
+                                    padding-top: 10px;
+                                    width: 80%;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    position: relative;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-style: normal;
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                    text-transform: capitalize;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                            #contact input[type="text"],
+                            #contact input[type="email"],
+                            #contact input[type="tel"],
+                            #contact input[type="url"],
+                            #contact textarea,
+                            #contact button[type="submit"] {
+                                font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+                            }
+
+                            #contact {
+                                background: #F9F9F9;
+                                padding: 25px;
+                                margin: 30px 0;
+                            }
+
+                            #contact h3 {
+                                color: #F96;
+                                display: block;
+                                font-size: 30px;
+                                font-weight: 400;
+                            }
+
+                            #contact h4 {
+                                margin: 5px 0 15px;
+                                display: block;
+                                font-size: 13px;
+                            }
+
+                            fieldset {
+                                border: medium none !important;
+                                margin: 0 0 10px;
+                                min-width: 100%;
+                                padding: 0;
+                                width: 100%;
+                            }
+
+                            #contact input[type="text"],
+                            #contact input[type="email"],
+                            #contact input[type="tel"],
+                            #contact input[type="url"],
+                            #contact textarea {
+                                width: 100%;
+                                border: 1px solid #CCC;
+                                background: #FFF;
+                                margin: 0 0 5px;
+                                padding: 10px;
+                                height: 20px;
+                            }
+
+                            #contact input[type="text"]:hover,
+                            #contact input[type="email"]:hover,
+                            #contact input[type="tel"]:hover,
+                            #contact input[type="url"]:hover,
+                            #contact textarea:hover {
+                                -webkit-transition: border-color 0.3s ease-in-out;
+                                -moz-transition: border-color 0.3s ease-in-out;
+                                transition: border-color 0.3s ease-in-out;
+                                border: 1px solid #AAA;
+                            }
+
+                            #contact textarea {
+                                height: 50px;
+                                width: 100%;
+                                resize: none;
+                            }
+
+                            #contact button[type="submit"] {
+                                cursor: pointer;
+                                width: 100%;
+                                border: none;
+                                background: #0CF;
+                                color: #FFF;
+                                margin: 0 0 5px;
+                                padding: 10px;
+                                font-size: 15px;
+                            }
+
+                            #contact button[type="submit"]:hover {
+                                background: #09C;
+                                -webkit-transition: background 0.3s ease-in-out;
+                                -moz-transition: background 0.3s ease-in-out;
+                                transition: background-color 0.3s ease-in-out;
+                            }
+
+                            #contact button[type="submit"]:active {
+                                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+                            }
+
+                            #contact input:focus,
+                            #contact textarea:focus {
+                                outline: 0;
+                                border: 1px solid #999;
+                            }
+
+                            ::-webkit-input-placeholder {
+                                color: #888;
+                            }
+
+                            :-moz-placeholder {
+                                color: #888;
+                            }
+
+                            ::-moz-placeholder {
+                                color: #888;
+                            }
+
+                            :-ms-input-placeholder {
+                                color: #888;
+                            }
+
+                            .loaderimgs {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            @media only screen and (max-width: 800px) {
+                                .loaderimgs {
+                                    width: 100px;
+                                }
+                            }
+
+                            /* silder css */
+
+                            /* .swiper {
+                                width: 100%;
+                                height: 100%;
+                              }
+                        
+                              .swiper-slide {
+                                text-align: center;
+                                font-size: 18px;
+                                background: #fff;
+                        
+                                /* Center slide text vertically 
+                                display: -webkit-box;
+                                display: -ms-flexbox;a
+                                display: -webkit-flex;
+                                display: flex;
+                                -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                -webkit-justify-content: center;
+                                justify-content: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                -webkit-align-items: center;
+                                align-items: center;
+                              }
+                        
+                              .swiper-slide img {
+                                display: block;
+                                width: 600px;
+                                height: 300px;
+                                object-fit: cover;
+                              } */
+
+                            .swiper {
+                                width: 90%;
+                                padding-top: 0px;
+                                padding-bottom: 0px;
+                                height: 180px;
+                                position: absolute;
+                                top: 70%;
+                                left: 2%;
+                                background: radial-gradient(black, transparent);
+                                display: none;
+                                z-index: 99;
+                            }
+
+                            .swiper-slide {
+                                background-position: center;
+                                background-size: cover;
+                                width: 300px;
+                                height: 300px;
+                            }
+
+                            .swiperspan {
+                                float: right;
+                                margin-top: -180px;
+                                z-index: 389;
+                                position: relative;
+                            }
+
+                            .swiper-slide img {
+                                display: block;
+                                width: 100%;
+                                height: 180px;
+                                filter: blur(2px);
+                                transition: 0.5s ease-in-out;
+                                -moz-transition: all 0.3s;
+                                -webkit-transition: all 0.3s;
+                                transition: all 0.3s;
+                            }
+
+                            .swiper-slide h5 {
+                                color: #ffff;
+                                font-size: 30px;
+                                font-weight: bold;
+                                position: relative;
+                                bottom: 3.5em;
+                                text-align: center;
+                            }
+
+                            .swiper-slide:hover h5 {
+                                visibility: hidden;
+                            }
+
+                            .swiper-slide:hover h2 {
+                                visibility: hidden;
+                            }
+
+                            .swiper-slide h2 {
+                                color: #ffff;
+                                font-size: 23px;
+                                font-weight: normal;
+                                position: relative;
+                                bottom: 5.5em;
+                                text-align: center;
+                            }
+
+                            .swiper-slide:hover img {
+                                filter: blur(0);
+                                transition: 0.5s ease-in-out;
+                                -moz-transform: scale(1.1);
+                                -webkit-transform: scale(1.1);
+                                transform: scale(1.1);
+                                cursor: pointer;
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                                .swiper {
+                                    width: 70%;
+                                    padding-top: 0px;
+                                    padding-bottom: 0px;
+                                    height: 150px;
+                                    position: absolute;
+                                    top: 69%;
+                                    left: 4.5%;
+                                    background: radial-gradient(black, transparent);
+                                    z-index: 99;
+                                }
+                                .swiper-slide img {
+                                    display: block;
+                                    width: 90%;
+                                    height: 150px;
+                                }
+                                .swiperspan {
+                                    float: right;
+                                    margin-top: -150px;
+                                    z-index: 389;
+                                    position: relative;
+                                }
+                                .right-action-block {
+                                    bottom: 56x;
+                                }
+                            }
